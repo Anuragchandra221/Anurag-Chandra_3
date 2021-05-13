@@ -1,0 +1,51 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    letter-spacing: 2%;
+    line-height: 1.6;
+}
+
+.Div1{
+    height: inherit;
+}
+.btn0{
+    height: auto;
+    width: max-content;  
+    background-color: #011640; 
+}
+
+header{
+    background-color: #fff7f1;
+    margin: 0px;
+}
+.first_button{
+    background-color: #ffd6d6;
+    max-width: fit-content;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px){
+    .imgdiv{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 48%;
+        margin-inline: 1%;
+    }
+    .inputB{
+        width:50%
+    }
+    .navbar-nav{
+        font-size: inherit;
+    }
+}
+@media only screen and (min-width: 992px){
+    .navbar-nav{
+        font-size: large;
+    }
+}
+
+
+
